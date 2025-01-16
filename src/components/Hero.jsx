@@ -11,9 +11,9 @@ const Hero = () => {
             bg-discount rounded-[10px] mb-2"> 
             <img src={discount} alt="discount" className="w-[32px] h-[32px]" />
             <p className={`${styles.paragraph}`}>
-              <span className="text-white">20%</span>
-              Discount for {``}
-              <span className="text-white">1 Month</span>
+              <span className="text-white">20%</span> {" "}
+              Discount for {" "}
+              <span className="text-white">1 Month</span> {" "}
               Account
             </p>
           </div>
